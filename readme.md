@@ -49,7 +49,7 @@ git clone https://github.com/zoDLer1/rogue_js.git
 
 #### 4.2 Предметы:
 Игрок может поднимать зелья (излечивает на 20 ед здоровья) и мечи (добавляет 5 урона к текущему урону)
-
+<p align='center'>
 <table>
   <tbody>
     <tr>
@@ -62,6 +62,7 @@ git clone https://github.com/zoDLer1/rogue_js.git
     </tr>
   </tbody>
 </table>
+</p>
 
 #### 4.3 Игрок:
 Передвижение игрока осуществляется WASD, атака на Пробел.
