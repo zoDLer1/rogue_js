@@ -55,6 +55,7 @@ git clone https://github.com/zoDLer1/rogue_js.git
 <p align='center'>
 <img src="https://github.com/zoDLer1/rogue_js/assets/88045849/aa61407c-f882-4620-8c9c-be7df9159a3e">
 </p>
+
 #### 4.3 Игрок:
 Передвижение игрока осуществляется WASD, атака на Пробел.
 Игрок атакует в радиусе 1 клетки от себя по всем направлениям:
@@ -62,6 +63,6 @@ git clone https://github.com/zoDLer1/rogue_js.git
 <p align='center'>
 <img src='https://github.com/zoDLer1/rogue_js/assets/88045849/105df41e-c826-45db-945c-fd275142e842'/>
 </p>
-#### 4.4 Завершение игры:
 
+#### 4.4 Завершение игры:
 Игра завершается если ирок мертв или убыты все противники
