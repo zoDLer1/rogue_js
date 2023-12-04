@@ -62,6 +62,6 @@ git clone https://github.com/zoDLer1/rogue_js.git
 <p align='center'>
 <img src='https://github.com/zoDLer1/rogue_js/assets/88045849/105df41e-c826-45db-945c-fd275142e842'/>
 </p>
-
 #### 4.4 Завершение игры:
+
 Игра завершается если ирок мертв или убыты все противники
