@@ -9,8 +9,6 @@
 ## 1. Предварительные требования
 Прежде чем начать, убедитесь, что у вас установлены следующие необходимые компоненты:
 - [Git](https://git-scm.com/downloads)
-- [Python 3.6 или выше](https://www.python.org/downloads/)
-- [Node.js](https://nodejs.org/en/download) (comes with [npm](https://www.npmjs.com))
 
 ## 2. Установка
 Чтобы запустить это приложение, выполните следующие действия:
