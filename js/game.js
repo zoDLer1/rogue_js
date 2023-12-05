@@ -6,6 +6,7 @@ class Game
     enemies = [];
     init()
     {
+        this.pressedKey = null;
         const fieldsContainer = document.querySelector('.field');
         const gameWindow = document.querySelector('.field-box');
         gameWindow.focus();
@@ -19,6 +20,10 @@ class Game
     }
     onKeyDown(event)
     {
+        if (this.pressedKey)
+        {
+            return;
+        }
         // key codes
         // d - 68
         // a - 65
@@ -33,11 +38,12 @@ class Game
         };
         if ([68, 65, 87, 83, 32].includes(event.keyCode))
         {
+            this.pressedKey = event.keyCode;
             let isMoved = false;
-            let isAttaked = false;
+            let isAttacked = false;
             if (event.keyCode === 32)
             {
-                isAttaked = this.player.attackOverview();
+                isAttacked = this.player.attackOverview();
             }
             else
             {
@@ -45,13 +51,14 @@ class Game
                 this.setCameraPosition();
             }
             // если игрок не сдвинутся или не атаковал это не считается ходом
-            if (isMoved || isAttaked)
+            if (isMoved || isAttacked)
             {
                 for (const enemy of this.enemies)
                 {
                     enemy.update();
                 }
             }
+            this.pressedKey = null;
         }
     }
     // если игрок умирает начинаем игру заново
