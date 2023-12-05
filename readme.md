@@ -28,7 +28,7 @@ git clone https://github.com/zoDLer1/rogue_js.git
 <p align='center'>
 <img  src='https://github.com/zoDLer1/rogue_js/assets/88045849/8a4dfae2-91c3-4ff5-a4fd-794634c567ce'/>
 </p>
-По окончанию маршрута гененируется новый. Каждый ход враг сканирует пространство вокург себя в поисках игрока:
+По окончанию маршрута гененируется новый. Каждый ход враг сканирует пространство вокруг себя в поисках игрока:
 <p align='center'>
 <img src='https://github.com/zoDLer1/rogue_js/assets/88045849/f3bacd60-721f-4592-9008-eae979530e56'/>
 </p>
