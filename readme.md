@@ -20,7 +20,7 @@ git clone https://github.com/zoDLer1/rogue_js.git
 
 ### 3. Запуск приложения
 
-В папке `rogue` откройте файл `index.js` в браузере.
+В папке `rogue` откройте файл `index.html` в браузере.
 
 ### 4. Игра
 #### 4.1 Противники:
